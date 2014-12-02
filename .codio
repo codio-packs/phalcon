@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start Server": "php -S 0.0.0.0:3000 -t ~/workspace/projects/phalcon/tutorial/public/"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Preview": "http://{{domain}}:3000/"
+  }
+}
