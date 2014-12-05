@@ -1,22 +1,24 @@
-##Starting PHP Webserver##
+#Phalcon (1.3.2)
 
-You can start the built-in PHP Webserver using the Codio menu.  
+##Using the Pack
+To use the Pack, we created 2 menu options, which you can find on the right of the menu. These menus can be configured in the `.codio` file.
 
-1. Go to the Run menu - the 2nd from right most Codio menu.
-1. Select `Start Server` .
+1. **Start Server** : When you come into your Project, start the internal PHP server.
+1. **Preview** : This previews your app. 
 
-Or in the terminal enter
+**Note:** Do not set the 'Inside Codio' option.
+
+If you prefer to start the internal PHP server yourself, you can do so in the terminal (Tools>Terminal) entering:
 ```
 php -S 0.0.0.0:3000 -t ~/workspace/projects/phalcon/tutorial/public/
 ```
  
+##Accessing the application
+To access your application from a browser, you can use the menu option described above. The url of your Phalcon project can be found in the `Project->Box Info` menu and will look something like this
 
-##To Access your Project##
-
-To get to your site
-
-1. Go to the Preview menu - the right most Codio menu, 
-1. Then select `Preview`.
+```
+https://vital-ego.box.codio.io:9500/
+```
 
 and you should see
 ```
@@ -24,8 +26,8 @@ and you should see
 Sign Up Here!..."
 ```
 
-##Other
-All components you need for Phalcon are preinstalled by the Codio Starter Pack.
+##How the Pack was prepared
+This Starter Pack was built on the `Codio Base Stack` Codio Certified Stack.
 
 ##Useful Links
 
