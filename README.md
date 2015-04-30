@@ -1,4 +1,4 @@
-#Phalcon (1.3.2)
+#Phalcon (2.0.0)
 
 ##Using the Pack
 To use the Pack, we created 2 menu options, which you can find on the right of the menu. These menus can be configured in the `.codio` file.
@@ -27,7 +27,7 @@ Sign Up Here!..."
 ```
 
 ##How the Pack was prepared
-This Starter Pack was built on the `Codio Base Stack` Codio Certified Stack.
+This Starter Pack was built on the `Phalcon` Codio Certified Stack.
 
 ##Useful Links
 
